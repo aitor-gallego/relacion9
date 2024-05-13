@@ -1,0 +1,14 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="500"
+        x:Class="Ej9.MainWindow"
+        Width="800"
+        Height="500"
+        Title="Ej9">
+    <Canvas Background="Black">
+        <Rectangle Name="jugador" Fill="White" Width="150" Height="20" Canvas.Left="325" Canvas.Bottom="0"/>
+        <Ellipse Name="pelota" Fill="White" Width="30" Height="30" Canvas.Left="385" Canvas.Top="235"/>
+    </Canvas>
+</Window>

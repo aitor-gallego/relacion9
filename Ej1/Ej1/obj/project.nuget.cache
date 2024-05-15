@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OEFqo1+wQULl0ukCew3WiOm0iq46hXNu0cIfTlM3kvryWXfJlnv77kGf76s8cdPBBEP4elzecxPHhrfQmH9dAw==",
+  "dgSpecHash": "XtM32abCvyc+QYlZxDNzTjCO9pGTQXpxylBi+QoIJHbDv8egZxy3l0tC2X6GFPxydGc4GBRa17jAlhkFR+Q0Aw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aitor\\Desktop\\dam\\PROG\\T9\\Ej1\\Ej1\\Ej1.csproj",
+  "projectFilePath": "C:\\Users\\aitor\\Desktop\\dam\\PROG\\Relacciones\\T9\\Ej1\\Ej1\\Ej1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aitor\\.nuget\\packages\\avalonia\\11.0.10\\avalonia.11.0.10.nupkg.sha512",
     "C:\\Users\\aitor\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.0.2023020321\\avalonia.angle.windows.natives.2.1.0.2023020321.nupkg.sha512",

@@ -4373,11 +4373,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aitor\\Desktop\\dam\\PROG\\T9\\Ej2\\Ej2\\Ej2.csproj",
+      "projectUniqueName": "C:\\Users\\aitor\\Desktop\\dam\\PROG\\Relacciones\\T9\\Ej2\\Ej2\\Ej2.csproj",
       "projectName": "Ej2",
-      "projectPath": "C:\\Users\\aitor\\Desktop\\dam\\PROG\\T9\\Ej2\\Ej2\\Ej2.csproj",
+      "projectPath": "C:\\Users\\aitor\\Desktop\\dam\\PROG\\Relacciones\\T9\\Ej2\\Ej2\\Ej2.csproj",
       "packagesPath": "C:\\Users\\aitor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aitor\\Desktop\\dam\\PROG\\T9\\Ej2\\Ej2\\obj\\",
+      "outputPath": "C:\\Users\\aitor\\Desktop\\dam\\PROG\\Relacciones\\T9\\Ej2\\Ej2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aitor\\AppData\\Roaming\\NuGet\\NuGet.Config",

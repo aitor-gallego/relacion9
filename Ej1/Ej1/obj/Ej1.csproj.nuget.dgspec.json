@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aitor\\Desktop\\dam\\PROG\\T9\\Ej1\\Ej1\\Ej1.csproj": {}
+    "C:\\Users\\aitor\\Desktop\\dam\\PROG\\Relacciones\\T9\\Ej1\\Ej1\\Ej1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aitor\\Desktop\\dam\\PROG\\T9\\Ej1\\Ej1\\Ej1.csproj": {
+    "C:\\Users\\aitor\\Desktop\\dam\\PROG\\Relacciones\\T9\\Ej1\\Ej1\\Ej1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aitor\\Desktop\\dam\\PROG\\T9\\Ej1\\Ej1\\Ej1.csproj",
+        "projectUniqueName": "C:\\Users\\aitor\\Desktop\\dam\\PROG\\Relacciones\\T9\\Ej1\\Ej1\\Ej1.csproj",
         "projectName": "Ej1",
-        "projectPath": "C:\\Users\\aitor\\Desktop\\dam\\PROG\\T9\\Ej1\\Ej1\\Ej1.csproj",
+        "projectPath": "C:\\Users\\aitor\\Desktop\\dam\\PROG\\Relacciones\\T9\\Ej1\\Ej1\\Ej1.csproj",
         "packagesPath": "C:\\Users\\aitor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aitor\\Desktop\\dam\\PROG\\T9\\Ej1\\Ej1\\obj\\",
+        "outputPath": "C:\\Users\\aitor\\Desktop\\dam\\PROG\\Relacciones\\T9\\Ej1\\Ej1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aitor\\AppData\\Roaming\\NuGet\\NuGet.Config",

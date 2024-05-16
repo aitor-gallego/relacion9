@@ -1,0 +1,21 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="600" d:DesignHeight="250"
+        Width="600"
+        Height="250"
+        CanResize="False"
+        RequestedThemeVariant="Dark"
+        x:Class="Ej5.MainWindow"
+        Title="Ej5">
+   <Canvas>
+       <Menu Width="600" Background="Indigo">
+           <MenuItem Name="BtnEmpezar" Click="BtnEmpezar_OnClick" Header="_Empezar" FontSize="20"/>
+           <MenuItem Name="BtnParar" Click="BtnParar_OnClick" Header="_Parar" IsEnabled="False" FontSize="20"/>
+           <MenuItem Name="BtnReiniciar" Click="BtnReiniciar_OnClick" Header="_Reiniciar" IsEnabled="False" FontSize="20"/>
+           <MenuItem Name="BtnSalir" Click="BtnSalir_OnClick" Header="_Salir" FontSize="20"/>
+       </Menu>
+       <Label Name="LblReloj" Content="00:00:00" Canvas.Bottom="50" Canvas.Left="50" Width="500" HorizontalContentAlignment="Center" FontSize="100"/>
+   </Canvas>
+</Window>

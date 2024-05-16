@@ -19,47 +19,64 @@ public partial class MainWindow : Window
 
     private async void Reloj()
     {
-            for (int i = 0; i < 24; i++)
+        while (_status)
+        {
+            LblReloj.Content = $"{h:D2}:{m:D2}:{s:D2}";
+            await Task.Delay(1000);
+
+            s++;
+            if (s == 60)
             {
-                for (int j = 0; j < 60; j++)
+                s = 0;
+                m++;
+                if (m == 60)
                 {
-                    for (int k = 0; k < 60; k++)
+                    m = 0;
+                    h++;
+                    if (h == 24)
                     {
-                        LblReloj.Content = $"{h:D2}:{m:D2}:{s:D2}";
-                        await Task.Delay(1000);
-                        s++;
+                        h = 0;
                     }
-                    m++;
                 }
-                h++;
             }
+        }
     }
 
     private void BtnEmpezar_OnClick(object? sender, RoutedEventArgs e)
     {
-            _status = true;
-            BtnReiniciar.IsEnabled = true;
-            BtnParar.IsEnabled = true;
-            Reloj();   
+        _status = true;
+        BtnEmpezar.IsEnabled = false;
+        BtnParar.IsEnabled = true;
+        BtnReiniciar.IsEnabled = true;
+        Reloj();
     }
 
     private void BtnParar_OnClick(object? sender, RoutedEventArgs e)
     {
         _status = false;
+        BtnEmpezar.IsEnabled = true;
+        BtnParar.IsEnabled = false;
+        BtnReiniciar.IsEnabled = true;
     }
 
+    private void BtnReiniciar_OnClick(object? sender, RoutedEventArgs e)
+    {
+        _status = false;
+        BtnEmpezar.IsEnabled = true;
+        BtnParar.IsEnabled = false;
+        BtnReiniciar.IsEnabled = true;
+        
+        h = 0;
+        m = 0;
+        s = 0;
+        LblReloj.Content = $"{h:D2}:{m:D2}:{s:D2}";
+    }
+    
     private async void BtnSalir_OnClick(object? sender, RoutedEventArgs e)
     {
         var box = MessageBoxManager.GetMessageBoxStandard("Confirmar para salir de la aplicación", "¿Estás Seguro/a?",
             ButtonEnum.YesNo);
         if (await box.ShowWindowAsync() == ButtonResult.Yes)
             Close();
-    }
-
-    private void BtnReiniciar_OnClick(object? sender, RoutedEventArgs e)
-    {
-        _status = false;
-        BtnParar.IsEnabled = false;
-        LblReloj.Content = $"{0:D2}:{0:D2}:{0:D2}";
     }
 }

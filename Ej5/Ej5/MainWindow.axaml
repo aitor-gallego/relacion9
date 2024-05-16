@@ -11,7 +11,7 @@
         Title="Ej5">
    <Canvas>
        <Menu Width="600" Background="Indigo">
-           <MenuItem Name="BtnEmpezar" Click="BtnEmpezar_OnClick" Header="_Empezar" FontSize="20"/>
+           <MenuItem Name="BtnEmpezar" Click="BtnEmpezar_OnClick" Header="_Marchar" FontSize="20"/>
            <MenuItem Name="BtnParar" Click="BtnParar_OnClick" Header="_Parar" IsEnabled="False" FontSize="20"/>
            <MenuItem Name="BtnReiniciar" Click="BtnReiniciar_OnClick" Header="_Reiniciar" IsEnabled="False" FontSize="20"/>
            <MenuItem Name="BtnSalir" Click="BtnSalir_OnClick" Header="_Salir" FontSize="20"/>

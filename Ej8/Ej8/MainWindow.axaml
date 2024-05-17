@@ -1,0 +1,24 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        x:Class="Ej8.MainWindow"
+        RequestedThemeVariant="Dark"
+        Title="CRAPS Game"
+        Width="400" Height="300">
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock Name="TxtResultado" FontSize="24" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+        <Separator/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBlock Name="TxtDado1" FontSize="20" Margin="10"/>
+            <TextBlock Text="+" VerticalAlignment="Center" FontSize="20"/>
+            <TextBlock Name="TxtDado2" FontSize="20" Margin="10"/>
+            <TextBlock Text="=" VerticalAlignment="Center" FontSize="20"/>
+            <TextBlock Name="TxtTotal" FontSize="20" Margin="10"/>
+        </StackPanel>
+        <Separator/>
+        <Button Name="BtnTirar" Click="BtnTirar_Click" Content="Tirar" HorizontalAlignment="Center" Background="Indigo" Margin="0,20,0,0"/>
+        <Button Name="BtnNuevo" Click="BtnNuevo_Click" Content="Nuevo" HorizontalAlignment="Center" Background="Indigo" Margin="0,20,0,0"/>
+    </StackPanel>
+</Window>

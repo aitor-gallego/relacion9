@@ -1,0 +1,29 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="510" d:DesignHeight="430"
+        Width="600"
+        Height="430"
+        CanResize="False"
+        x:Class="Ej7.MainWindow"
+        RequestedThemeVariant="Dark"
+        Title="Ej7">
+    <StackPanel >
+        <Border BorderBrush="Azure" BorderThickness="1" Width="450" Height="200" Margin="30">
+            <Rectangle Name="Rectangle" Width="448" Height="198" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <StackPanel Margin="0" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Label Content="Rojo" BorderThickness="0" VerticalAlignment="Center"/>
+            <Slider Name="Rojo" Width="400" Minimum="0" Maximum="255" VerticalAlignment="Center" ValueChanged="Slider_OnValueChanged"/>
+        </StackPanel>
+        <StackPanel Margin="0" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Label Content="Verde" BorderThickness="0" VerticalAlignment="Center"/>
+            <Slider Name="Verde" Width="400" Minimum="0" Maximum="255" VerticalAlignment="Center" ValueChanged="Slider_OnValueChanged"/>
+        </StackPanel>
+        <StackPanel Margin="0" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Label Content="Azul" BorderThickness="0" VerticalAlignment="Center"/>
+            <Slider Name="Azul" Width="400" Minimum="0" Maximum="255" VerticalAlignment="Center" ValueChanged="Slider_OnValueChanged"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
